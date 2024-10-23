@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 eframe = "0.29.1"
+api= {path="../api"}
+egui_tracing = "0.2.6"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
