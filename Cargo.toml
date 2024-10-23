@@ -1,0 +1,9 @@
+[workspace]
+members = [ "api","runner" ] 
+default-members = ["runner"]
+resolver = "2"
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+authors = ["yum <yumzi114@gmail.com>"]
+license = "MIT OR Apache-2.0"
